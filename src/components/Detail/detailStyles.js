@@ -4,6 +4,7 @@ export const Container = styled.div`
     min-height: calc(100vh - 70px);
     padding: 0 calc(3.5vw + 5px);
     position: relative;
+    
 `
 export const Background = styled.div`
     position: fixed;
@@ -26,6 +27,7 @@ export const ImageTitle = styled.div`
     min-height: 170px;
     width: 35vw;
     min-width: 200px;
+    margin-top: 60px;
 
     img {
         width: 100%;
@@ -95,4 +97,5 @@ export const Description = styled.div`
     font-size: 20px;
     margin-top: 16px;
     color: rgb(249, 249, 249);
+    max-width:760px;
 `
